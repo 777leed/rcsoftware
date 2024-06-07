@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Inter";
+  src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url('../fonts/JetBrainsMono-VariableFont_wght.ttf');
+}
+
+
+:root {
+  --main-vanilla: #F3E5AB;
+  --darker-main : #635E4E;
+
+}
+
+*{
+  box-sizing:border-box;
+}
+a {
+  text-decoration: none;
+
+}
+
+
+body {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url('../Svg/nnnoise.svg');
+  font-family: 'Inter';
+  cursor: default;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  padding: 8em;
+}
+
+.left-details {
+  width: 50%;
+}
+.left-details p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #535353;
+}
+
+.left-details H1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+
+
+.body-rest {
+  width: 50%;
+}
+
+.vn-card-container {
+  margin: 0 auto;
+  width: 57%;
+  height: 460px;
+  padding: 1.2em;
+  border-radius: 1em;
+  box-shadow: #f3e5ab96 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.vn-abstract {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.vn-abstract:hover {
+filter: blur(2px);
+}
+
+.vn-abstract img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+
+
+.vn-name {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.vn-bio {
+  font-size: 0.8rem;
+  color: #635E4E;
+  margin-top: 0.2rem;
+
+}
+
+
+.vn-barcode {
+  margin-top: 1em;
+  border: 2px solid #635E4E;
+  width: fit-content;
+  padding: 0.2em;
+  border-radius: 1em;
+  font-family: JetBrainsMono;
+
+}
+
+.vn-barcode span {
+  border-right: 2px solid #635E4E;
+  font-size: 0.8rem;
+  padding: 0.2em;
+  color: #635E4E;
+  font-weight: 600;
+}
+
+.vn-barcode span:last-child {
+  border: 0;
+}
+
+.vn-card-footer {
+  margin-top: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.vn-logo {
+  margin-top: 0.4em;
+  font-family: JetBrainsMono;
+  font-size: 0.8rem;
+  color: #635E4E;
+}
+
+
+.glass-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url('../Assets/glasstexture.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+

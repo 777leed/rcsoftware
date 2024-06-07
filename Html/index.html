@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/loaders.css">
+</head>
+<body>
+  <div id="everything">
+  </div>
+  <div class="wrapper" id="indexWrapper">
+    <div class="typebar-container glassify" id="typebar">
+      <div id="image-container" class="glassify">
+      </div>
+      <div class="type-bar">
+        <input type="text" placeholder="Type Here" id="my-input">
+        <div id="send">
+          <img src="../Assets/send (1).png" alt="" class="bitpadd">
+        </div>
+      </div>
+    </div>
+      <div class="concept-side-panel l36 glassify" id="sidec">
+        <div class="flexifyy">      
+          <h3 class="space-title">Space Concepts</h3>
+          <div class="flexifyy">
+            <div >
+              <img class="iconx" src="../Assets/refresh.png" alt="">
+            </div>
+            <div class="win-btn" id="close-sd">
+              <img src="../Assets/close-button.png" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="hashtags-container" id="hashtags-containerid">
+
+        </div>
+
+      </div>
+      <div class="concept-side-panel r36 glassify" id="sidek">
+        <div class="flexifyy">      
+          <h3 class="space-title">Space Keynotes</h3>
+          <div class="flexifyy">
+            <div >
+              <img class="iconx" src="../Assets/refresh.png" alt="">
+            </div>
+            <div class="win-btn" id="close-sdk">
+              <img src="../Assets/close-button.png" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="hashtags-container" id="keynotes-containerid">
+
+        </div>
+
+      </div>
+      <div class="top-bar">
+        <div class="navigation">
+          <img src="../Assets/chevron.png" class="rotate-h" alt="go back arrow" id="goback">
+        </div>
+        <div class="space-title-container">
+          <div class="space-title" id="spacenamee">
+            XXXX
+          </div>
+          <div id="space-menu" class="glassify">
+            <button class="space-menu-elm glassify"><span>Favorite</span><img src="../Assets/wishlist.png" alt=""></button>
+            <div class="space-menu-elm glassify"><span>Template</span><img src="../Assets/layout.png" alt=""></div>
+            <div class="space-menu-elm glassify"><span>Rename</span><img src="../Assets/pencil.png" alt=""></div>
+            <div class="space-menu-elm glassify"><span>Export</span><img src="../Assets/export.png" alt=""></div>
+            <div class="space-menu-elm glassify" id="changeBackgroundButton"><span>Background</span><img src="../Assets/graphic.png" alt="">
+              <input style="display: none;" type="file" id="changeBackgroundOption" accept="image/*">
+            </div>
+            <div class="space-menu-elm glassify"><span>Remove</span><img src="../Assets/bin.png" alt=""></div>
+          </div>
+        </div>
+        <div class="window-controls">
+          <div class="win-btn">
+            <img src="../Assets/close-button.png" alt="" id="close-app">
+          </div>
+          <div class="win-btn">
+            <img src="../Assets/fullscreen.png" alt="">
+          </div>
+          <div class="win-btn">
+            <img src="../Assets/minus.png" alt="" id="minimize-app">
+          </div>
+        </div>
+      </div>
+      <div id="blur-overlay"></div>
+      <div id="thoughtContainer">
+
+      </div>
+      <div class="concept-container">
+        <div class="concept-elm glassmorph-back" id="concept-btn">
+          <img src="../Assets/3d.png" alt="">
+        </div>
+        <div class="concept-elm glassmorph-back" id="sum-btn">
+          <img src="../Assets/seed-of-life.png" alt="">
+        </div>
+        <div class="concept-elm glassmorph-back" id="select-btn">
+          <img src="../Assets/selection.png" alt="">
+        </div>
+      </div>
+      <div class="bottom-info">
+        <div class="stats">
+          <span class="stat">Thoughts : <span id="thoughtCount">0</span></span>
+          <span class="stat">Characters : 0</span>
+          <span class="stat">Removed : 0</span>
+          <span class="stat" id="timeRef">00:00</span>
+        </div>
+      </div>
+  </div>
+ 
+  
+  <script type="importmap">
+    {
+    "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+    }
+    }
+  </script>
+<script type="module" src="../JS/everything.js"></script>
+<script type="module" src="../JS/util.js"></script>
+
+<script src="../JS/navigation.js"></script>
+
+
+
+</body>
+</html>
